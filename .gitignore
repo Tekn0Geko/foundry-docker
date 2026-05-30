@@ -2,3 +2,6 @@
 # Ignore config files and temp files
 *.DS_Store
 .secret
+
+# Ignore Foundry VTT compressed source files
+app/*.zip

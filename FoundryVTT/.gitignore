@@ -1,0 +1,5 @@
+
+# Ignore new files in this directory
+# This directory holds instance data
+*
+!.gitignore
