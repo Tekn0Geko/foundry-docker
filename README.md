@@ -13,14 +13,21 @@ VTT solutions, like just running locally via Node.
 
 # TL;DR
 
+Login to the Foundry VTT main page and download the compressed Node source file.
+
+Copy the compressed Node source file into the `app/` directory supplied in this repo. 
+
 Build the image locally:
+
 `docker-compose build foundryvtt`
 
 Start the container instance as a background service:
+
 `docker-compose up -d foundryvtt`
 
 Stop the instance when done:
-`docker-compose stop foundryvtt
+
+`docker-compose stop foundryvtt`
 
 # Resource Links
 
